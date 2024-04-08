@@ -28,6 +28,7 @@ code {
 
 .yellow {
   color: rgb(252, 188, 26);
+  /* color: rgb(255, 0, 0); */
 }
 
 .paragraph {
@@ -47,6 +48,7 @@ code {
 #projectSection,
 #contactSection {
   border: 2px solid black;
+  /* border: 2px solid white; */
 }
 
 .socialMedia {
@@ -78,14 +80,36 @@ code {
 
 .cardBox {
   background-color: rgba(252, 255, 255, 0.062);
-  color: rgb(255, 189, 57);
+  /* color: rgb(255, 189, 57); */
   padding: 0;
   cursor: pointer;
+  height: 320px;
+}
+
+.cardBox>a {
   text-decoration: none;
+  color: white;
+
 }
 
 
 .cardBox:hover {
   background-color: rgb(255, 189, 57);
   color: white;
+  transition: .30s ease-out;
 }
+
+.cardImage {
+  width: 'inherit';
+  height: 200px;
+}
+
+.cardText {
+  margin-top: 25px;
+}
+
+/* .cardElements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */

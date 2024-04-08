@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfilePicture from '../static/linkedinProfile.jpeg'
+import ProfilePicture from '../static/linkedinProfile.png'
 function Image(props) {
     return (
         <div className="col-5" >
