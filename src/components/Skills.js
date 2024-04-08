@@ -2,7 +2,7 @@ import React from 'react'
 import SkillsBox from './SkillsBox'
 
 function Skills() {
-    let skills1 = ["HTML", "CSS", "JS", "Reactjs", "Expressjs", "MongoDB", "Bootstrap"]
+    let skills1 = ["HTML", "CSS", "JS", "React.js", "Express.js", "MongoDB", "Node.js", "Bootstrap"]
     let skills2 = ["SQL", "Python", "Django", "C", "C++", "C#", "Git", "Assembly",]
     return (
         <section id='skillsSection' className='container '>
