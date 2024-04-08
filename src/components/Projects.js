@@ -20,7 +20,7 @@ function Projects() {
 
                         <Card img={portfolioLogo} heading='Portfolio Website' desc='React.js ' link='https://github.com/MAsad2723/portfoliowebsite' />
 
-                        <Card img={iNotebook} heading='iNotebook' desc='React.js + Context API | Node.js | Express.js | MongoDB ' link='https://github.com/MAsad2723/inotebook' />
+                        <Card img={iNotebook} heading='iNotebook' desc='React.js + Context API | Node.js | Express.js | MongoDB ' link='https://github.com/MAsad2723/inotebookapp' />
 
                         <Card img={textUtils} heading='Text Utilities' desc='React.js | Node.js | Express.js | MongoDB ' link='https://github.com/MAsad2723/textUtils' />
 
