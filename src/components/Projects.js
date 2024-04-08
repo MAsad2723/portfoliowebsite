@@ -16,7 +16,7 @@ function Projects() {
                 <div className="container my-4 ">
                     <h1 className='yellow'>Projects</h1>
                     <div className='row d-flex justify-content-center'>
-                        <Card img={khanakhao} heading='Khana Khao - Food App' desc='React.js | Node.js | Oracle DB | Tailwind-css' link='' />
+                        <Card img={khanakhao} heading='Khana Khao - Food App' desc='React.js | Node.js | Oracle DB | Tailwind-css' link='https://github.com/MAsad2723/khanakhao/' />
 
                         <Card img={portfolioLogo} heading='Portfolio Website' desc='React.js ' link='https://github.com/MAsad2723/portfoliowebsite' />
 
