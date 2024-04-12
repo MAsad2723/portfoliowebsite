@@ -14,7 +14,7 @@ function Skills() {
                             return <SkillsBox skill={skill} />
                         })}
                     </div>
-                    <div className="row my-4">
+                    <div className="row">
                         {skills2.map((skill) => {
                             return <SkillsBox skill={skill} />
                         })}
