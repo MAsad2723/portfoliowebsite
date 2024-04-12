@@ -3,7 +3,7 @@ import React from 'react'
 function Card(prop) {
     return (
         // <a href="#sectionProject" target='_blank' rel="noopener noreferrer" className='card m-4 col-3 cardBox'>
-        <div className='card m-4 col-3 cardBox'>
+        <div className='card m-4 col-lg-3 col-md-5 col-sm-6 col-8 cardBox'>
             <a href={prop.link} rel="noopener noreferrer" target='_blank'>
                 <div className='cardImage'>
                     <img src={prop.img} style={{ height: 'inherit' }} className="card-img-top" alt="..." />

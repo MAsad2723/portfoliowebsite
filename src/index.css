@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+.App {
+  text-align: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -57,12 +61,11 @@ code {
 
 .socialMediaBoxes {
   border: 2px solid rgb(156, 151, 151);
-  margin: 1em 0.5em;
+  margin: 0.7em 0.5em;
   /*top right bottom left */
-  padding: 20px 10px 10px 10px;
+  padding: 16px 0px 10px 0px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   border-radius: 20px;
   cursor: pointer;
   text-decoration: none;

@@ -1,4 +1,3 @@
-import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
@@ -8,13 +7,25 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
+      <div style={{ border: '2px solid white' }}>
+        <Navbar />
+      </div>
+      <div style={{ border: '2px solid white' }}>
+        <Home />
+      </div>
+      <div style={{ border: '2px solid white' }}>
+        <About />
+      </div>
+      <div style={{ border: '2px solid white' }}>
+        <Skills />
+      </div>
+      <div style={{ border: '2px solid white' }}>
+        <Projects />
+      </div>
       <footer>
-        <Contact />
+        <div style={{ border: '2px solid white' }}>
+          <Contact />
+        </div>
       </footer>
     </div>
   );

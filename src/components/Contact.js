@@ -11,31 +11,39 @@ function Contact() {
                     </h1>
                 </div >
                 <div className='mt-4 text-start'>
-                    <h3>
+                    <h4>
                         <div className="row">
-                            <div className="col-3 yellow">
+                            <div className="col-lg-3 col-md-6 col-sm-12 yellow">
                                 Email :
                             </div>
-                            <div className="col-3">
+                            <div className="col-lg-3 col-md-6 col-sm-12">
                                 muhammadasad98980@gmail.com
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3 yellow">
+                            <div className="col-lg-3 col-md-6 col-sm-12 yellow">
                                 Phone Number :
                             </div>
-                            <div className="col-3">
+                            <div className="col-lg-3 col-md-6 col-sm-12">
                                 +92-312-2492189
                             </div>
                         </div>
-                    </h3>
+                    </h4>
                     <div className="text-start socialMedia">
                         <h3 className='yellow'>Social Media:</h3>
-                        <div className="d-flex" style={{ fontSize: '30px' }}>
-                            <SocialMedia socialMediaPage='Facebook' link='https://www.facebook.com/asadfurqan2723' />
-                            <SocialMedia socialMediaPage='Instagram' link='https://www.instagram.com/asadfurqan18' />
-                            <SocialMedia socialMediaPage='Linkedin' link='https://www.linkedin.com/in/asad-m-furqan' />
-                            <SocialMedia socialMediaPage='Github' link='https://www.github.com/MAsad2723' />
+                        <div className="d-flex row" style={{ fontSize: '30px' }}>
+                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ maxWidth: '80%' }}>
+                                <SocialMedia socialMediaPage='Facebook' link='https://www.facebook.com/asadfurqan2723' />
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ maxWidth: '80%' }}>
+                                <SocialMedia socialMediaPage='Instagram' link='https://www.instagram.com/asadfurqan18' />
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ maxWidth: '80%' }}>
+                                <SocialMedia socialMediaPage='Linkedin' link='https://www.linkedin.com/in/asad-m-furqan' />
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ maxWidth: '80%' }}>
+                                <SocialMedia socialMediaPage='Github' link='https://www.github.com/MAsad2723' />
+                            </div>
                         </div>
                     </div>
                 </div>
