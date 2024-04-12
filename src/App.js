@@ -7,25 +7,14 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      <div style={{ border: '2px solid white' }}>
-        <Navbar />
-      </div>
-      <div style={{ border: '2px solid white' }}>
-        <Home />
-      </div>
-      <div style={{ border: '2px solid white' }}>
-        <About />
-      </div>
-      <div style={{ border: '2px solid white' }}>
-        <Skills />
-      </div>
-      <div style={{ border: '2px solid white' }}>
-        <Projects />
-      </div>
+
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
       <footer>
-        <div style={{ border: '2px solid white' }}>
-          <Contact />
-        </div>
+        <Contact />
       </footer>
     </div>
   );
