@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PDFDownloadButton from './PDFDownloadButton'
 function Navbar() {
     return (
         <div>
@@ -25,6 +25,9 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#contactSection">Contact</a>
+                            </li>
+                            <li className="nav-item">
+                                <PDFDownloadButton />
                             </li>
                         </ul>
                     </div>

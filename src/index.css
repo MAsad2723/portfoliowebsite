@@ -22,12 +22,17 @@ code {
 .nav-item {
   font-size: 17px;
   padding: 12px;
-  margin: 0px 0px;
 }
 
 .nav-item:hover {
   color: rgb(252, 188, 26);
   font-size: 17.5px;
+}
+
+.resume {
+  border: 2px solid rgb(252, 188, 26);
+  border-radius: 10%;
+  color: white;
 }
 
 .yellow {
