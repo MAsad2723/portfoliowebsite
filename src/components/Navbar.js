@@ -6,7 +6,7 @@ function Navbar() {
             <nav style={{ backgroundColor: 'black' }} className={`navbar navbar-expand-lg navbar-dark fixed-top site-navbar-target`} >
                 <div className="container">
                     <a className="navbar-brand" href="/"><h4>Asad M.Furqan</h4></a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ margin: '0px 20%' }}>
